@@ -19,7 +19,8 @@ for (var num=0; max=searchinput.length, num<max; num++){
                     <div class="suggestion">${resultItem.name}</div>
                 `
             )
-    
+    /* créer une var suggestionList */
+    /* suggestions.lenght = any résoudre le pb*/ 
             document.getElementsByClassName('suggestions').innerHTML = suggestion;
         };
     }, false);
